@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-website-main/static/css/main.4dffe875.chunk.css",
+    "main.js": "/portfolio-website-main/static/js/main.4ded7d18.chunk.js",
+    "main.js.map": "/portfolio-website-main/static/js/main.4ded7d18.chunk.js.map",
+    "runtime-main.js": "/portfolio-website-main/static/js/runtime-main.c15afe80.js",
+    "runtime-main.js.map": "/portfolio-website-main/static/js/runtime-main.c15afe80.js.map",
+    "static/js/2.2725c7e4.chunk.js": "/portfolio-website-main/static/js/2.2725c7e4.chunk.js",
+    "static/js/2.2725c7e4.chunk.js.map": "/portfolio-website-main/static/js/2.2725c7e4.chunk.js.map",
+    "index.html": "/portfolio-website-main/index.html",
+    "precache-manifest.55ba0c7e4eeca7119437370d62011ab0.js": "/portfolio-website-main/precache-manifest.55ba0c7e4eeca7119437370d62011ab0.js",
+    "service-worker.js": "/portfolio-website-main/service-worker.js",
+    "static/css/main.4dffe875.chunk.css.map": "/portfolio-website-main/static/css/main.4dffe875.chunk.css.map",
+    "static/js/2.2725c7e4.chunk.js.LICENSE": "/portfolio-website-main/static/js/2.2725c7e4.chunk.js.LICENSE",
+    "static/media/hardikThakkar.jpeg": "/portfolio-website-main/static/media/hardikThakkar.04073404.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c15afe80.js",
+    "static/js/2.2725c7e4.chunk.js",
+    "static/css/main.4dffe875.chunk.css",
+    "static/js/main.4ded7d18.chunk.js"
+  ]
+}
