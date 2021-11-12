@@ -1,12 +1,5 @@
 var CACHE_NAME = "portfolio-website-main";
-var urlsToCache = [
-  "/static/js/main.chunk.js",
-  "/static/js/0.chunk.js",
-  "/static/js/bundle.js",
-  "/index.html",
-  "/",
-  "/completed",
-];
+var urlsToCache = ["/", "/completed"];
 
 // Install a service worker
 self.addEventListener("install", (event) => {
