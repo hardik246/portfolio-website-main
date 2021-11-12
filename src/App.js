@@ -10,28 +10,26 @@ import Contact from "./contents/Contact";
 
 function App() {
   return (
-    <div className="container-fluid">
-      <Router>
-        <div className="App">
-          <Navbar />
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/education">
-            <Education />
-          </Route>
-          <Route path="/skills">
-            <Skills />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-        </div>
-      </Router>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/education">
+          <Education />
+        </Route>
+        <Route path="/skills">
+          <Skills />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+      </div>
+    </Router>
   );
 }
 
