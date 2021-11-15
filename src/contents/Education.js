@@ -1,19 +1,29 @@
-// import React, { Component } from 'react';
-// import Widecard from '../components/Widecard';
+import React, { Component } from "react";
+import Widecard from "../components/Widecard";
 
-// class Education extends Component {
-//     render() {
-//         return (
-//             <div className="condiv">
-//                 <h1 className="subtopic">My Education</h1>
-//                 <Widecard title="Bachelor of Computer Application" where="JG College of Computer Application" from="2018" to="Present" />
-//                 <Widecard title="HSC" where="Uma School of Commerce" from="2017" to="2018" />
-//             </div>
-//         )
-//     }
-// }
+class Education extends Component {
+  render() {
+    return (
+      <div className="condiv">
+        <h1 className="subtopic">My Education</h1>
+        <Widecard
+          title="Bachelor of Computer Application"
+          where="JG College of Computer Application"
+          from="2018"
+          to="Present"
+        />
+        <Widecard
+          title="HSC"
+          where="Uma School of Commerce"
+          from="2017"
+          to="2018"
+        />
+      </div>
+    );
+  }
+}
 
-// export default Education
+export default Education;
 // import React from 'react';
 // import { makeStyles } from '@material-ui/core/styles';
 // import Stepper from '@material-ui/core/Stepper';
@@ -48,7 +58,7 @@
 // function getStepContent(step) {
 //     switch (step) {
 //         case 0:
-//             return `JG College of Computer Application     
+//             return `JG College of Computer Application
 //             2018 - Present`;
 //         case 1:
 //             return 'Uma Vidhyalaya';
@@ -126,135 +136,132 @@
 //     );
 // }
 
+// import React from 'react';
+// import { makeStyles } from '@material-ui/core/styles';
+// import Timeline from '@material-ui/lab/Timeline';
+// import TimelineItem from '@material-ui/lab/TimelineItem';
+// import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
+// import TimelineConnector from '@material-ui/lab/TimelineConnector';
+// import TimelineContent from '@material-ui/lab/TimelineContent';
+// import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
+// import TimelineDot from '@material-ui/lab/TimelineDot';
+// import FastfoodIcon from '@material-ui/icons/Fastfood';
+// import LaptopMacIcon from '@material-ui/icons/LaptopMac';
+// import HotelIcon from '@material-ui/icons/Hotel';
+// import RepeatIcon from '@material-ui/icons/Repeat';
+// import Paper from '@material-ui/core/Paper';
+// import Typography from '@material-ui/core/Typography';
+// import HomeIcon from '@material-ui/icons/Home';
+// import MouseIcon from '@material-ui/icons/Mouse';
 
+// const useStyles = makeStyles((theme) => ({
+//     paper: {
+//         padding: '6px 16px',
+//     },
+//     secondaryTail: {
+//         backgroundColor: theme.palette.secondary.main,
+//     },
+// }));
 
+// export default function CustomizedTimeline() {
+//     const classes = useStyles();
 
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Timeline from '@material-ui/lab/Timeline';
-import TimelineItem from '@material-ui/lab/TimelineItem';
-import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
-import TimelineConnector from '@material-ui/lab/TimelineConnector';
-import TimelineContent from '@material-ui/lab/TimelineContent';
-import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
-import TimelineDot from '@material-ui/lab/TimelineDot';
-import FastfoodIcon from '@material-ui/icons/Fastfood';
-import LaptopMacIcon from '@material-ui/icons/LaptopMac';
-import HotelIcon from '@material-ui/icons/Hotel';
-import RepeatIcon from '@material-ui/icons/Repeat';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-import HomeIcon from '@material-ui/icons/Home';
-import MouseIcon from '@material-ui/icons/Mouse';
+//     return (
+//         <div className="condiv">
+//             <h1 className="subtopic">My Education</h1>
+//             <Timeline align="alternate">
+//                 <TimelineItem>
+//                     <TimelineOppositeContent>
+//                     </TimelineOppositeContent>
+//                     <TimelineSeparator>
+//                         <TimelineDot>
+//                             <FastfoodIcon />
+//                         </TimelineDot>
+//                         <TimelineConnector />
+//                     </TimelineSeparator>
+//                     <TimelineContent>
+//                         <Paper elevation={3} className={classes.paper}>
+//                             <Typography variant="h6" component="h1">
+//                                 SSC
+//             </Typography>
+//                             <Typography>H.B.Mehta Vallabhanagar Highschool</Typography>
+//                             <Typography>2015-2016</Typography>
 
-const useStyles = makeStyles((theme) => ({
-    paper: {
-        padding: '6px 16px',
-    },
-    secondaryTail: {
-        backgroundColor: theme.palette.secondary.main,
-    },
-}));
+//                         </Paper>
+//                     </TimelineContent>
+//                 </TimelineItem>
+//                 <TimelineItem>
+//                     <TimelineOppositeContent>
+//                     </TimelineOppositeContent>
+//                     <TimelineSeparator>
+//                         <TimelineDot color="primary">
+//                             <HomeIcon color="white" />
+//                         </TimelineDot>
+//                         <TimelineConnector />
+//                     </TimelineSeparator>
+//                     <TimelineContent>
+//                         <Paper elevation={3} className={classes.paper}>
+//                             <Typography variant="h6" component="h1">
+//                                 HSC
+//             </Typography>
+//                             <Typography>Uma Vidhyalaya</Typography>
+//                             <Typography>2017-2018</Typography>
+//                         </Paper>
+//                     </TimelineContent>
+//                 </TimelineItem>
+//                 <TimelineItem>
+//                     <TimelineSeparator>
 
-export default function CustomizedTimeline() {
-    const classes = useStyles();
-
-    return (
-        <div className="condiv">
-            <h1 className="subtopic">My Education</h1>
-            <Timeline align="alternate">
-                <TimelineItem>
-                    <TimelineOppositeContent>
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                        <TimelineDot>
-                            <FastfoodIcon />
-                        </TimelineDot>
-                        <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                        <Paper elevation={3} className={classes.paper}>
-                            <Typography variant="h6" component="h1">
-                                SSC
-            </Typography>
-                            <Typography>H.B.Mehta Vallabhanagar Highschool</Typography>
-                            <Typography>2015-2016</Typography>
-
-                        </Paper>
-                    </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                    <TimelineOppositeContent>
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                        <TimelineDot color="primary">
-                            <HomeIcon color="white" />
-                        </TimelineDot>
-                        <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                        <Paper elevation={3} className={classes.paper}>
-                            <Typography variant="h6" component="h1">
-                                HSC
-            </Typography>
-                            <Typography>Uma Vidhyalaya</Typography>
-                            <Typography>2017-2018</Typography>
-                        </Paper>
-                    </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                    <TimelineSeparator>
-
-                        <TimelineDot color="secondary">
-                            <LaptopMacIcon />
-                        </TimelineDot>
-                        <TimelineConnector className={classes.secondaryTail} />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                        <Paper elevation={3} className={classes.paper}>
-                            <Typography variant="h6" component="h1">
-                                Bachelor of Computer Application(BCA)
-            </Typography>
-                            <Typography>JG College of Computer Application</Typography>
-                            <Typography>2018-Present</Typography>
-                        </Paper>
-                    </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                    <TimelineSeparator>
-                        <TimelineDot>
-                            <RepeatIcon />
-                        </TimelineDot>
-                        <TimelineConnector className={classes.secondaryTail} />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                        <Paper elevation={3} className={classes.paper}>
-                            <Typography variant="h6" component="h1">
-                                TRIRID Technologies
-            </Typography>
-                            <Typography>Work as a Junior Software Developer</Typography>
-                            <Typography>Work Experience <b>6 Months</b> at TRIRID Technologies</Typography>
-                        </Paper>
-                    </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                    <TimelineSeparator>
-                        <TimelineDot color="secondary">
-                            <MouseIcon style={{ color: "white" }} />
-                        </TimelineDot>
-                    </TimelineSeparator>
-                    <TimelineContent>
-                        <Paper elevation={3} className={classes.paper}>
-                            <Typography variant="h6" component="h1">
-                                Current Position
-            </Typography>
-                            <Typography>Work in <b>Artoon Solutions PVT. LTD.</b></Typography>
-                            <Typography>Software Developer</Typography>
-                            <Typography>April 2021-Present</Typography>
-                        </Paper>
-                    </TimelineContent>
-                </TimelineItem>
-            </Timeline>
-        </div>
-    );
-}
+//                         <TimelineDot color="secondary">
+//                             <LaptopMacIcon />
+//                         </TimelineDot>
+//                         <TimelineConnector className={classes.secondaryTail} />
+//                     </TimelineSeparator>
+//                     <TimelineContent>
+//                         <Paper elevation={3} className={classes.paper}>
+//                             <Typography variant="h6" component="h1">
+//                                 Bachelor of Computer Application(BCA)
+//             </Typography>
+//                             <Typography>JG College of Computer Application</Typography>
+//                             <Typography>2018-Present</Typography>
+//                         </Paper>
+//                     </TimelineContent>
+//                 </TimelineItem>
+//                 <TimelineItem>
+//                     <TimelineSeparator>
+//                         <TimelineDot>
+//                             <RepeatIcon />
+//                         </TimelineDot>
+//                         <TimelineConnector className={classes.secondaryTail} />
+//                     </TimelineSeparator>
+//                     <TimelineContent>
+//                         <Paper elevation={3} className={classes.paper}>
+//                             <Typography variant="h6" component="h1">
+//                                 TRIRID Technologies
+//             </Typography>
+//                             <Typography>Work as a Junior Software Developer</Typography>
+//                             <Typography>Work Experience <b>6 Months</b> at TRIRID Technologies</Typography>
+//                         </Paper>
+//                     </TimelineContent>
+//                 </TimelineItem>
+//                 <TimelineItem>
+//                     <TimelineSeparator>
+//                         <TimelineDot color="secondary">
+//                             <MouseIcon style={{ color: "white" }} />
+//                         </TimelineDot>
+//                     </TimelineSeparator>
+//                     <TimelineContent>
+//                         <Paper elevation={3} className={classes.paper}>
+//                             <Typography variant="h6" component="h1">
+//                                 Current Position
+//             </Typography>
+//                             <Typography>Work in <b>Artoon Solutions PVT. LTD.</b></Typography>
+//                             <Typography>Software Developer</Typography>
+//                             <Typography>April 2021-Present</Typography>
+//                         </Paper>
+//                     </TimelineContent>
+//                 </TimelineItem>
+//             </Timeline>
+//         </div>
+//     );
+// }
