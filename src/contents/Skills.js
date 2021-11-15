@@ -1,28 +1,37 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 class Skills extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            'myskills': ['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'JQUERY', 'GATSBY', 'REACT JS', 'ANGULAR', 'MSSQL']
-        };
-    }
+  constructor(props) {
+    super(props);
+    this.state = {
+      myskills: [
+        "HTML",
+        "CSS",
+        "BOOTSTRAP",
+        "JAVASCRIPT",
+        "JQUERY",
+        "GATSBY",
+        "REACT JS",
+        "MSSQL",
+      ],
+    };
+  }
 
-    render() {
-        return (
-            <div className="condiv skills">
-                <h1 className="subtopic">My Skills</h1>
-                <ul>
-                    {this.state.myskills.map((value) => {
-                        return <li>{value}</li>
-                    })}
-                </ul>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div className="condiv skills">
+        <h1 className="subtopic">My Skills</h1>
+        <ul>
+          {this.state.myskills.map((value) => {
+            return <li>{value}</li>;
+          })}
+        </ul>
+      </div>
+    );
+  }
 }
 
-export default Skills
+export default Skills;
 
 // import React from 'react';
 // import { makeStyles } from '@material-ui/core/styles';
