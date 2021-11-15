@@ -13,19 +13,19 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <Route exact path="/">
+        <Route exact path="/portfolio-website-main/">
           <Home />
         </Route>
-        <Route path="/about">
+        <Route path="/portfolio-website-main/about">
           <About />
         </Route>
-        <Route path="/education">
+        <Route path="/portfolio-website-main/education">
           <Education />
         </Route>
-        <Route path="/skills">
+        <Route path="/portfolio-website-main/skills">
           <Skills />
         </Route>
-        <Route path="/contact">
+        <Route path="/portfolio-website-main/contact">
           <Contact />
         </Route>
       </div>
