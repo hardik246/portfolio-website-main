@@ -20,6 +20,7 @@ self.addEventListener("fetch", (event) => {
       if (response) {
         return response;
       }
+      console.log("2");
       return fetch(event.request);
     })
   );
@@ -28,10 +29,13 @@ self.addEventListener("fetch", (event) => {
 // Update a service worker
 self.addEventListener("activate", (event) => {
   var cacheWhitelist = ["portfolio-website-main"];
+  console.log("3");
   event.waitUntil(
     caches.keys().then((cacheNames) => {
+      console.log(cacheNames);
       return Promise.all(
         cacheNames.map((cacheName) => {
+          console.log(cacheName);
           if (cacheWhitelist.indexOf(cacheName) === -1) {
             return caches.delete(cacheName);
           }
