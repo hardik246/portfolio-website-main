@@ -11,12 +11,12 @@ class About extends Component {
                 <h3>Front-End <u>Developer</u> | UI/UX <u>Designer</u></h3>
                 <br></br>
                 <p>I started my journey in the world of computers from an young age,
-            now I’m 20 years old, Pursuing my Bachelor of Computer Application Degree in
-            J.G.College Vastrapur, Ahmedabad.  Web development is my center of interest, i always
-            love the idea of cross-platform development, 1-n one code base deploy into almost
-            any platform, which web technology like Javascript enables me to do. I also like
-            creating Interactive UI components for better UX.
-            </p>
+                    now I’m 21 years old, Pursuing my Master of Computer Application Degree in
+                    Jain University, Bengaluru.  Web development is my center of interest, i always
+                    love the idea of cross-platform development, 1-n one code base deploy into almost
+                    any platform, which web technology like Javascript enables me to do. I also like
+                    creating Interactive UI components for better UX.
+                </p>
 
             </div>
         )

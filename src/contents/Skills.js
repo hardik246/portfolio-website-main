@@ -9,10 +9,8 @@ class Skills extends Component {
         "CSS",
         "BOOTSTRAP",
         "JAVASCRIPT",
-        "JQUERY",
-        "GATSBY",
         "REACT JS",
-        "MSSQL",
+        "REACT-REDUX"
       ],
     };
   }

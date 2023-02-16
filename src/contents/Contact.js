@@ -4,14 +4,12 @@ class Contact extends Component {
     render() {
         return (
             <div className="condiv">
-            <h1 className="subtopic">Contact Me</h1>
-            <h3>Email  :   hardikthakkar07752@gmail.com</h3>
-            <h3>Instagram   :   @harrddiikk_</h3>
-            <Social />
+                <h1 className="subtopic">Contact Me</h1>
+                <h3>Email  :   hardikthakkar07752@gmail.com</h3>
+                <Social />
             </div>
-            )
-        }
+        )
     }
-    
-    export default Contact
-    
+}
+
+export default Contact

@@ -10,7 +10,7 @@ class Home extends Component {
         <img src={profilepic} alt="ProfilePic" className="profilepic"></img>
         <ReactTypingEffect
           className="typingeffect"
-          text={["I am Hardik Thakkar", "I am a web developer"]}
+          text={["I am Hardik Thakkar", "I am a Front-end developer"]}
           speed={100}
           eraseDelay={700}
         />
