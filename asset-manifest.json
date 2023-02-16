@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-website-main/static/css/main.98613600.chunk.css",
-    "main.js": "/portfolio-website-main/static/js/main.5fae4d18.chunk.js",
-    "main.js.map": "/portfolio-website-main/static/js/main.5fae4d18.chunk.js.map",
-    "runtime-main.js": "/portfolio-website-main/static/js/runtime-main.c15afe80.js",
-    "runtime-main.js.map": "/portfolio-website-main/static/js/runtime-main.c15afe80.js.map",
-    "static/js/2.5c20e2d1.chunk.js": "/portfolio-website-main/static/js/2.5c20e2d1.chunk.js",
-    "static/js/2.5c20e2d1.chunk.js.map": "/portfolio-website-main/static/js/2.5c20e2d1.chunk.js.map",
-    "index.html": "/portfolio-website-main/index.html",
-    "precache-manifest.c41296a5208cccbebb06ca9938dce5dc.js": "/portfolio-website-main/precache-manifest.c41296a5208cccbebb06ca9938dce5dc.js",
-    "service-worker.js": "/portfolio-website-main/service-worker.js",
-    "static/css/main.98613600.chunk.css.map": "/portfolio-website-main/static/css/main.98613600.chunk.css.map",
-    "static/js/2.5c20e2d1.chunk.js.LICENSE": "/portfolio-website-main/static/js/2.5c20e2d1.chunk.js.LICENSE",
-    "static/media/hardikThakkar.jpeg": "/portfolio-website-main/static/media/hardikThakkar.04073404.jpeg"
+    "main.css": "/static/css/main.5602c8c5.chunk.css",
+    "main.js": "/static/js/main.12ca3911.chunk.js",
+    "main.js.map": "/static/js/main.12ca3911.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.33b04fa7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.33b04fa7.js.map",
+    "static/js/2.e33fbbae.chunk.js": "/static/js/2.e33fbbae.chunk.js",
+    "static/js/2.e33fbbae.chunk.js.map": "/static/js/2.e33fbbae.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.eac5b9ecc936900b446945481048788f.js": "/precache-manifest.eac5b9ecc936900b446945481048788f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5602c8c5.chunk.css.map": "/static/css/main.5602c8c5.chunk.css.map",
+    "static/js/2.e33fbbae.chunk.js.LICENSE.txt": "/static/js/2.e33fbbae.chunk.js.LICENSE.txt",
+    "static/media/hardikThakkar.jpeg": "/static/media/hardikThakkar.04073404.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c15afe80.js",
-    "static/js/2.5c20e2d1.chunk.js",
-    "static/css/main.98613600.chunk.css",
-    "static/js/main.5fae4d18.chunk.js"
+    "static/js/runtime-main.33b04fa7.js",
+    "static/js/2.e33fbbae.chunk.js",
+    "static/css/main.5602c8c5.chunk.css",
+    "static/js/main.12ca3911.chunk.js"
   ]
 }
